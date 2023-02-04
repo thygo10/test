@@ -1,6 +1,7 @@
 *{
   padding: 0;
   margin: 0;
+  
 }
 
 ::root{
@@ -12,4 +13,20 @@
   --secondaryColor-grayHeadline: #212529;
   --secondaryColor-grayParagraph: #495057;;
   --secondaryColor-white:#ededed
+}
+
+header{
+  display: flex;
+}
+
+body{
+  text-align:center;
+}
+
+.hero{
+  background-color: var(--primaryColor-brandGreen)
+  width: 375px;
+height: 1080px;
+margin: auto;
+
 }
