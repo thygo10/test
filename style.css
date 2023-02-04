@@ -4,29 +4,40 @@
   
 }
 
-::root{
+:root{
   --primaryColor-brandGreen:#00856F;
   --primaryColor-light:#DCE9E2;
   --primaryColor-ligth02: #F7F9F9;
   --primaryColor-beige:#FFFAF1;
 
   --secondaryColor-grayHeadline: #212529;
-  --secondaryColor-grayParagraph: #495057;;
+  --secondaryColor-grayParagraph: #495057;
   --secondaryColor-white:#ededed
 }
 
 header{
   display: flex;
+  
 }
+
+
 
 body{
   text-align:center;
+  font-family: 'DM Sans', sans-serif;
 }
 
 .hero{
-  background-color: var(--primaryColor-brandGreen)
+  background: var(--primaryColor-light);
   width: 375px;
 height: 1080px;
 margin: auto;
+
+}
+
+.hero h2{
+  line-height: 27px;
+  font-size: 18px;
+  color: var(--secondaryColor-grayParagraph);
 
 }
